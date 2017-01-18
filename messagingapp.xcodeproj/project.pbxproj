@@ -14,6 +14,7 @@
 		919C1C6B1E2E8C81002CC397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 919C1C6A1E2E8C81002CC397 /* Assets.xcassets */; };
 		919C1C6E1E2E8C81002CC397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 919C1C6C1E2E8C81002CC397 /* LaunchScreen.storyboard */; };
 		919C1C761E2E8D1B002CC397 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 919C1C751E2E8D1B002CC397 /* GoogleService-Info.plist */; };
+		919C1C781E2EFAA1002CC397 /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 919C1C771E2EFAA1002CC397 /* ComposeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		919C1C6D1E2E8C81002CC397 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		919C1C6F1E2E8C81002CC397 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		919C1C751E2E8D1B002CC397 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		919C1C771E2EFAA1002CC397 /* ComposeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		B7473DBAD20DF48C8DD8B477 /* Pods_messagingapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_messagingapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -73,6 +75,7 @@
 			children = (
 				919C1C631E2E8C81002CC397 /* AppDelegate.swift */,
 				919C1C651E2E8C81002CC397 /* ViewController.swift */,
+				919C1C771E2EFAA1002CC397 /* ComposeViewController.swift */,
 				919C1C671E2E8C81002CC397 /* Main.storyboard */,
 				919C1C6A1E2E8C81002CC397 /* Assets.xcassets */,
 				919C1C6C1E2E8C81002CC397 /* LaunchScreen.storyboard */,
@@ -215,6 +218,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				919C1C781E2EFAA1002CC397 /* ComposeViewController.swift in Sources */,
 				919C1C661E2E8C81002CC397 /* ViewController.swift in Sources */,
 				919C1C641E2E8C81002CC397 /* AppDelegate.swift in Sources */,
 			);
@@ -378,6 +382,7 @@
 				919C1C741E2E8C81002CC397 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
